@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 import { Button } from "../components/ui/button";
 import { Card, CardContent } from "../components/ui/card";
 
@@ -32,7 +33,7 @@ export default function MMGLandingPage() {
         <div className="absolute inset-0 bg-black opacity-50"></div>
         <div className="relative z-10 flex flex-col items-center justify-center h-full text-center px-4">
           <h1 className="text-white text-4xl md:text-6xl font-bold mb-4">Mountain Men of God</h1>
-          <p className="text-white text-lg md:text-2xl mb-8">Where faith meets adventure in God's creation</p>
+          <p className="text-white text-lg md:text-2xl mb-8">Where faith meets adventure in God&apos;s creation</p>
           <div className="space-x-4">
             <Button className="bg-white text-gray-900 px-6 py-3">Join Our Brotherhood</Button>
             <Button className="bg-transparent border border-white text-white px-6 py-3">Learn Our Story</Button>
@@ -56,7 +57,7 @@ export default function MMGLandingPage() {
           <h2 className="text-3xl font-bold mb-4">Our Mission</h2>
           {/* Description */}
           <p className="text-lg text-muted-foreground mb-8 leading-relaxed">
-            MMG brings together men of faith who share a passion for outdoor adventure. We believe God's creation
+            MMG brings together men of faith who share a passion for outdoor adventure. We believe God&apos;s creation
             is the perfect backdrop for building stronger relationships with Him and with each other through
             challenging outdoor experiences.
           </p>
@@ -121,7 +122,13 @@ export default function MMGLandingPage() {
             { title: "Survival Training", img: "/survival.jpg", desc: "Learn essential skills with Biblical wisdom" },
           ].map((adv) => (
             <Card key={adv.title}>
-              <img src={adv.img} alt={adv.title} className="rounded-t-xl w-full h-48 object-cover" />
+              <Image
+                src={adv.img}
+                alt={adv.title}
+                width={400}
+                height={192}
+                className="rounded-t-xl w-full h-48 object-cover"
+              />
               <CardContent>
                 <h3 className="font-semibold">{adv.title}</h3>
                 <p className="text-sm text-gray-600">{adv.desc}</p>
@@ -135,7 +142,13 @@ export default function MMGLandingPage() {
       <section id="community" className="py-20 px-4">
         <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
           <div>
-            <img src="/community.jpg" alt="Community" className="rounded-xl shadow-lg" />
+            <Image
+              src="/community.jpg"
+              alt="Community"
+              width={600}
+              height={400}
+              className="rounded-xl shadow-lg"
+            />
           </div>
           <div>
             <h2 className="text-3xl font-bold mb-4">Our Community</h2>
