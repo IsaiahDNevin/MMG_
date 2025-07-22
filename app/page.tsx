@@ -7,7 +7,7 @@ export default function MMGLandingPage() {
   return (
     <div className="font-sans bg-white text-gray-900">
       {/* Navbar */}
-      <nav className="bg-white py-6 px-32 shadow-md flex items-center">
+      <nav className="bg-white py-6 px-32 shadow-md flex items-center sticky top-0 z-50">
         <div className="flex items-center space-x-2">
           <span className="font-bold text-2xl">MMG</span>
           <span className="text-gray-600 text-base md:text-lg">Mountain Men of God</span>
