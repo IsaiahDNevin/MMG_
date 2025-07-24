@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
+import Link from "next/link";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -23,11 +24,56 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
-        {children}
+    <html lang="en" className={`${geistSans.variable} ${geistMono.variable}`}>
+      <body className="bg-gray-100">
+        <div className="font-sans bg-white text-gray-900">
+          <nav className="bg-white py-6 px-32 shadow-md flex items-center sticky top-0 z-50">
+            <div className="flex items-center space-x-2">
+              <span className="font-bold text-2xl"><Link href="/">MMG</Link></span>
+              <span className="text-gray-600 text-base md:text-lg">Mountain Men of God</span>
+            </div>
+            <div className="flex-1" />
+            <div className="hidden md:flex items-center space-x-6">
+              <a href="#about" className="hover:text-gray-700">About</a>
+              <a href="#activities" className="hover:text-gray-700">Activities</a>
+              <a href="#community" className="hover:text-gray-700">Community</a>
+              <Link href="/events" className="hover:text-gray-700">Events</Link>
+              {/* Replace with your Button component if needed */}
+              <button className="bg-gray-900 text-white px-3 py-1 text-sm ml-4 rounded">Join Us</button>
+            </div>
+            <div className="md:hidden ml-auto">
+              <button aria-label="Open menu">☰</button>
+            </div>
+          </nav>
+
+          {/* Main Content */}
+          {children}
+
+          {/* Bottom Bar / Footer */}
+          <footer className="bg-gray-800 text-gray-300 py-12 px-4">
+            <div className="max-w-6xl mx-auto grid grid-cols-1 sm:grid-cols-4 gap-8">
+              <div>
+                <h3 className="text-white font-semibold mb-2">MMG</h3>
+                <p>Mountain Men of God – Where faith meets adventure in God’s creation.</p>
+              </div>
+              <div>
+                <h3 className="text-white font-semibold mb-2">Quick Links</h3>
+                <ul className="space-y-1"><li>About</li><li>Activities</li><li>Community</li><li>Events</li></ul>
+              </div>
+              <div>
+                <h3 className="text-white font-semibold mb-2">Contact</h3>
+                <p>Email: isaiahnevin15@gmail.com</p>
+                <p>Phone: (509) 850-4770</p>
+                <p>Location: Spokane</p>
+              </div>
+              <div>
+                <h3 className="text-white font-semibold mb-2">Follow Us</h3>
+                <p>Facebook</p><p>Instagram</p>
+              </div>
+            </div>
+            <div className="text-center text-sm mt-8">© 2025 Mountain Men of God. All rights reserved.</div>
+          </footer>
+        </div>
       </body>
     </html>
   );
