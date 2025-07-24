@@ -1,11 +1,12 @@
+import { PageProps } from '@/.next/types/app/layout'
 import { getEventById } from '@/app/services/events-service'
 
 export default async function EventPage({
+  params,
   searchParams,   // your query string key/values
-}: {
-  searchParams: { [key: string]: string | string[] | undefined }
-}) {
-  const {id} = searchParams
+}: PageProps) {
+  const {id} = await searchParams
+  const {slug} = await params
 
   const event = await getEventById(id as string)
 
@@ -15,6 +16,9 @@ export default async function EventPage({
   }
 
   return (
+    <>
+    <h1>{slug}</h1>
     <pre>{JSON.stringify(event, null, 2)}</pre>
+    </>
   )
 }
