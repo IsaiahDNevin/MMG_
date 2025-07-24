@@ -1,12 +1,14 @@
-import { PageProps } from '@/.next/types/app/layout'
 import { getEventById } from '@/app/services/events-service'
 
-export default async function EventPage({
-  params,
-  searchParams,   // your query string key/values
-}: PageProps) {
-  const {id} = await searchParams
-  const {slug} = await params
+type EventPageProps = {
+  params: Promise<{ slug: string }>
+  searchParams?: Promise<{ [key: string]: string | string[] | undefined }>
+}
+
+export default async function EventPage(props: EventPageProps) {
+  const { params, searchParams } = props
+  const slug = (await params).slug
+  const id = (await searchParams)?.id as string
 
   const event = await getEventById(id as string)
 
