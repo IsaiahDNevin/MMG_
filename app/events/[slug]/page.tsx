@@ -1,11 +1,8 @@
 import { getEventById } from '@/app/services/events-service'
-import { EventCard } from '@/components/ui/event-card'
 
 export default async function EventPage({
-  params,         // your dynamic route params
   searchParams,   // your query string key/values
 }: {
-  params: { slug: string }
   searchParams: { [key: string]: string | string[] | undefined }
 }) {
   const {id} = searchParams

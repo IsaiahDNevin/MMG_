@@ -19,7 +19,7 @@ export default async function MMGLandingPage() {
         <div className="absolute inset-0 bg-black opacity-50"></div>
         <div className="relative z-10 flex flex-col items-center justify-center h-full text-center px-4">
           <h1 className="text-white text-4xl md:text-6xl font-bold mb-4">Mountain Men of God</h1>
-          <p className="text-white text-lg md:text-2xl mb-8">Where faith meets adventure in God's creation</p>
+          <p className="text-white text-lg md:text-2xl mb-8">Where faith meets adventure in God&#39;s creation</p>
           <div className="space-x-4">
             <Button className="bg-white text-gray-900 px-6 py-3">Join Our Brotherhood</Button>
             <Button className="bg-transparent border border-white text-white px-6 py-3">Learn Our Story</Button>
