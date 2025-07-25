@@ -19,7 +19,7 @@ export default async function MMGLandingPage() {
       {/* Hero */}
       <header
         className="relative h-[550px] bg-cover bg-center"
-        style={{ backgroundImage: `url(${withRepoPrefix('/hero-bg.jpg')})` }}
+        style={{ backgroundImage: `url(${withRepoPrefix('/hero-bg')})` }}
       >
         <div className="absolute inset-0 bg-black opacity-50"></div>
         <div className="relative z-10 flex flex-col items-center justify-center h-full text-center px-4">
@@ -90,16 +90,16 @@ export default async function MMGLandingPage() {
       <Section id="adventures" title="Our Adventures" spule="Experience God’s creation through challenging outdoor activities" classes={['bg-gray-50']}>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
           {[
-            { title: "Skiing", img: withRepoPrefix('/skiing.jpg'), desc: "We ski a lot" },
-            { title: "Running", img: withRepoPrefix('/running1.jpg'), desc: "Carry the Boats!" },
-            { title: "Wilderness Camping", img: withRepoPrefix('/camping.jpg'), desc: "Connect with God and nature under the stars" },
-            { title: "Fishing Expeditions", img: withRepoPrefix('/fishing.jpg'), desc: "We all love to wet a line!" },
-            { title: "Backpacking", img: withRepoPrefix('/backpacking.jpg'), desc: "Multi-day adventures in God’s wilderness" },
-            { title: "Mountain Biking", img: withRepoPrefix('/mountain-biking.jpg'), desc: "Exploring God's world on a high-speed adventure" },
+            { title: "Skiing", img: '/skiing.jpg', desc: "We ski a lot" },
+            { title: "Running", img: '/running1.jpg', desc: "Carry the Boats!" },
+            { title: "Wilderness Camping", img: '/camping.jpg', desc: "Connect with God and nature under the stars" },
+            { title: "Fishing Expeditions", img: '/fishing.jpg', desc: "We all love to wet a line!" },
+            { title: "Backpacking", img: '/backpacking.jpg', desc: "Multi-day adventures in God’s wilderness" },
+            { title: "Mountain Biking", img: '/mountain-biking.jpg', desc: "Exploring God's world on a high-speed adventure" },
           ].map((adv) => (
             <Card key={adv.title}>
               <Image
-                src={adv.img}
+                src={withRepoPrefix(adv.img)}
                 alt={adv.title}
                 width={400}
                 height={192}
