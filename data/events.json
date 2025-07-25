@@ -6,7 +6,8 @@
     "date": "2025-03-15",
     "location": "New Hampshire",
     "description": "Challenge yourself with a winter ascent of Mount Washington.",
-    "cta": "Learn More"
+    "cta": "Learn More",
+    "image": "https://picsum.photos/seed/1/1200/600"
   },
   {
     "id": 2,
@@ -15,7 +16,8 @@
     "date": "Every 1st Saturday",
     "location": "Local Church",
     "description": "Join us for fellowship, food, and planning our next outdoor adventures.",
-    "cta": "Learn More"
+    "cta": "Learn More",
+    "image": "https://picsum.photos/seed/2/1200/600"
   },
   {
     "id": 3,
@@ -24,7 +26,8 @@
     "date": "2025-04-05",
     "location": "Arizona",
     "description": "Traverse the Grand Canyon from south rim to north rim in a single day hike.",
-    "cta": "Learn More"
+    "cta": "Learn More",
+    "image": "https://picsum.photos/seed/3/1200/600"
   },
   {
     "id": 4,
@@ -33,7 +36,8 @@
     "date": "2025-04-18",
     "location": "California",
     "description": "Camp under the stars in Yosemite Valley with guided devotions by the falls.",
-    "cta": "Learn More"
+    "cta": "Learn More",
+    "image": "https://picsum.photos/seed/4/1200/600"
   },
   {
     "id": 5,
@@ -42,7 +46,8 @@
     "date": "2025-05-02",
     "location": "Utah",
     "description": "Explore the Narrows and Angels Landing in Zion National Park.",
-    "cta": "Learn More"
+    "cta": "Learn More",
+    "image": "https://picsum.photos/seed/5/1200/600"
   },
   {
     "id": 6,
@@ -51,7 +56,8 @@
     "date": "2025-05-15",
     "location": "Colorado",
     "description": "Three-day backpacking trip through the Rocky Mountain wilderness.",
-    "cta": "Learn More"
+    "cta": "Learn More",
+    "image": "https://picsum.photos/seed/6/1200/600"
   },
   {
     "id": 7,
@@ -60,7 +66,8 @@
     "date": "2025-05-28",
     "location": "Florida",
     "description": "Guided kayaking tour through the tropical mangroves of the Everglades.",
-    "cta": "Learn More"
+    "cta": "Learn More",
+    "image": "https://picsum.photos/seed/7/1200/600"
   },
   {
     "id": 8,
@@ -69,7 +76,8 @@
     "date": "2025-06-03",
     "location": "Maine",
     "description": "Witness sunrise from the summit of Cadillac Mountain.",
-    "cta": "Learn More"
+    "cta": "Learn More",
+    "image": "https://picsum.photos/seed/8/1200/600"
   },
   {
     "id": 9,
@@ -78,7 +86,8 @@
     "date": "2025-06-10",
     "location": "Tennessee",
     "description": "Day hikes through the misty trails of the Smokies.",
-    "cta": "Learn More"
+    "cta": "Learn More",
+    "image": "https://picsum.photos/seed/9/1200/600"
   },
   {
     "id": 10,
@@ -87,7 +96,8 @@
     "date": "2025-06-21",
     "location": "Virginia",
     "description": "Tackle a 20‑mile section of the famed Appalachian Trail together.",
-    "cta": "Learn More"
+    "cta": "Learn More",
+    "image": "https://picsum.photos/seed/10/1200/600"
   },
   {
     "id": 11,
@@ -96,7 +106,8 @@
     "date": "2025-07-02",
     "location": "Washington",
     "description": "Training weekend for prospective Mount Rainier summit teams.",
-    "cta": "Learn More"
+    "cta": "Learn More",
+    "image": "https://picsum.photos/seed/11/1200/600"
   },
   {
     "id": 12,
@@ -105,7 +116,8 @@
     "date": "2025-07-15",
     "location": "Montana",
     "description": "Backcountry trekking and devotions in Glacier NP.",
-    "cta": "Learn More"
+    "cta": "Learn More",
+    "image": "https://picsum.photos/seed/12/1200/600"
   },
   {
     "id": 13,
@@ -114,7 +126,8 @@
     "date": "2025-07-25",
     "location": "Minnesota",
     "description": "Paddle and portage through the BWCA with evening worship by the lake.",
-    "cta": "Learn More"
+    "cta": "Learn More",
+    "image": "https://picsum.photos/seed/13/1200/600"
   },
   {
     "id": 14,
@@ -123,7 +136,8 @@
     "date": "2025-08-05",
     "location": "South Dakota",
     "description": "Capture the unique landscapes of Badlands NP at golden hour.",
-    "cta": "Learn More"
+    "cta": "Learn More",
+    "image": "https://picsum.photos/seed/14/1200/600"
   },
   {
     "id": 15,
@@ -132,6 +146,7 @@
     "date": "2025-08-12",
     "location": "California",
     "description": "Gentle walks among ancient redwoods and forest devotions.",
-    "cta": "Learn More"
+    "cta": "Learn More",
+    "image": "https://picsum.photos/seed/15/1200/600"
   }
 ]

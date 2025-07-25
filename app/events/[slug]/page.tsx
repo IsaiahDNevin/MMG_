@@ -11,18 +11,27 @@ export default async function EventPage({ params }: EventPageProps) {
   if (!event) return notFound()
 
   return (
-    <div className="flex flex-col min-h-screen">
-      {/* Page content */}
-      <main className="flex-grow max-w-4xl mx-auto py-12 px-4">
-        <h1 className="text-3xl font-bold mb-4">{event.title}</h1>
-        <p className="text-gray-600 mb-2">📅 {event.date} | 📍 {event.location}</p>
-        <p>{event.description}</p>
-      </main>
+    <main className="flex-grow bg-white">
+      <div className="max-w-4xl mx-auto px-4 py-12">
+        <div className="mb-8">
+          <img
+            src={event.image}
+            alt={event.title}
+            className="w-full h-64 object-cover rounded-lg shadow"
+          />
+        </div>
 
-      {/* Footer */}
-      <footer className="bg-gray-100 py-6 text-center text-sm text-gray-500">
-        © {new Date().getFullYear()} Your Group Name. All rights reserved.
-      </footer>
-    </div>
+        <h2 className="text-4xl font-bold mb-4">{event.title}</h2>
+        <p className="text-gray-600 mb-2">📅 {event.date} | 📍 {event.location}</p>
+        <p className="text-lg text-gray-800 mb-6">{event.description}</p>
+
+        <a
+          href="/events"
+          className="inline-block bg-gray-900 text-white px-6 py-3 rounded hover:bg-gray-800 transition"
+        >
+          {event.cta}
+        </a>
+      </div>
+    </main>
   )
 }

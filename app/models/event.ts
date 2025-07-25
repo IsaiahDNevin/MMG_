@@ -7,4 +7,5 @@ export interface Event {
   cta: string
   ctaLink: string
   slug: string
+  image: string
 }
