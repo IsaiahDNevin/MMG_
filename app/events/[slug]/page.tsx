@@ -1,6 +1,7 @@
 import { getEventBySlug } from '@/app/services/events-service'
 import { notFound } from 'next/navigation'
 import EventRegisterModal from '@/components/ui/event-registration-modal'
+import Image from 'next/image'
 
 type EventPageProps = {
   params: { slug: string }
@@ -23,10 +24,12 @@ export default async function EventPage({ params }: EventPageProps) {
   return (
     <main className="flex-grow bg-white">
       <div className="max-w-4xl mx-auto px-4 py-12">
-        <div className="mb-8">
-          <img
+        <div className="mb-8 relative">
+          <Image
             src={event.image}
             alt={event.title}
+            width={800}
+            height={450}
             className="w-full h-64 object-cover rounded-lg shadow"
           />
         </div>
