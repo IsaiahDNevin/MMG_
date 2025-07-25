@@ -2,10 +2,29 @@
 
 import { useState, ChangeEvent, FormEvent } from 'react'
 import { Button } from '@/components/ui/button'
+import * as emailjs from '@emailjs/browser'
 
 type Props = {
   eventTitle: string
 }
+
+emailjs.init({
+  publicKey: 'MG0CGgofhIT14y3tK',
+  // Do not allow headless browsers
+  blockHeadless: true,
+  blockList: {
+    // Block the suspended emails
+    list: ['foo@emailjs.com', 'bar@emailjs.com'],
+    // The variable contains the email address
+    watchVariable: 'userEmail',
+  },
+  limitRate: {
+    // Set the limit rate for the application
+    id: 'app',
+    // Allow 1 request per 10s
+    throttle: 10000,
+  },
+});
 
 export default function EventRegisterModal({ eventTitle }: Props) {
   const [open, setOpen] = useState(false)
@@ -21,22 +40,25 @@ export default function EventRegisterModal({ eventTitle }: Props) {
 
   const handleSubmit = async (e: FormEvent) => {
     e.preventDefault()
-    const res = await fetch('/api/subscribe', {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ name: form.name, email: form.email, phone: form.phone, eventTitle: eventTitle }),
-    })
 
-    const data = await res.json()
-    if (res.ok) {
+    try {
+      const result = await emailjs.send('service_psd4f9d', 'template_1cumvak', {
+        name: form.name,
+        email: form.email,
+        phone: form.phone,
+        eventTitle: eventTitle,
+      });
+      console.log('Email sent successfully:', result)
+
       alert('You are registered!')
       setForm({ name: '', email: '', phone: '' }) // Reset form
       setOpen(false)
-    } else {
-      alert('Failed: ' + data.error?.detail)
+    } catch (error) {
+      console.error('Email sending failed:', error)
+      alert('Failed to send registration. Please try again later.')
+      return
     }
   }
-
 
   return (
     <>
