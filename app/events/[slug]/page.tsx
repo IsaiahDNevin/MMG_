@@ -4,11 +4,11 @@ import EventRegisterModal from '@/components/ui/event-registration-modal'
 import Image from 'next/image'
 
 type EventPageProps = {
-  params: { slug: string }
+  params: Promise<{ slug: string }>
 }
 
 export async function generateMetadata({ params }: EventPageProps) {
-  const event = await getEventBySlug(params.slug)
+  const event = await getEventBySlug((await params).slug)
 
   return {
     title: `Mountain Men of God - ${event?.title || 'Event'}`,
@@ -17,7 +17,7 @@ export async function generateMetadata({ params }: EventPageProps) {
 }
 
 export default async function EventPage({ params }: EventPageProps) {
-  const event = await getEventBySlug(params.slug)
+  const event = await getEventBySlug((await params).slug)
 
   if (!event) return notFound()
 
