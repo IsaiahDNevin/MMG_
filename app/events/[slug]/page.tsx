@@ -1,5 +1,6 @@
 import { getEventBySlug } from '@/app/services/events-service'
 import { notFound } from 'next/navigation'
+import EventRegisterModal from '@/components/ui/event-registration-modal'
 
 type EventPageProps = {
   params: { slug: string }
@@ -25,12 +26,8 @@ export default async function EventPage({ params }: EventPageProps) {
         <p className="text-gray-600 mb-2">📅 {event.date} | 📍 {event.location}</p>
         <p className="text-lg text-gray-800 mb-6">{event.description}</p>
 
-        <a
-          href="/events"
-          className="inline-block bg-gray-900 text-white px-6 py-3 rounded hover:bg-gray-800 transition"
-        >
-          {event.cta}
-        </a>
+        {/* Modal trigger button */}
+        <EventRegisterModal eventTitle={event.title} />
       </div>
     </main>
   )
