@@ -15,7 +15,7 @@ export function withRepoPrefix(src: string): string {
       }
     }
     if (repo && !src.startsWith(`/${repo}`)) {
-      return `/${repo}${src.startsWith("/") ? src : "/" + src}`;
+      return `/public/${repo}${src.startsWith("/") ? src : "/" + src}`;
     }
   }
   return src;
