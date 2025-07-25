@@ -49,25 +49,26 @@ export default function RootLayout({
 
           {/* Bottom Bar / Footer */}
           <footer className="bg-gray-800 text-gray-300 py-12 px-4">
-            <div className="max-w-6xl mx-auto grid grid-cols-1 sm:grid-cols-4 gap-8">
+            <div className="flex justify-between py-6 px-64">
               <div>
                 <h3 className="text-white font-semibold mb-2">MMG</h3>
-                <p>Mountain Men of God – Where faith meets adventure in God’s creation.</p>
+                <p>Mountain Men of God –</p>
+                <p> Where faith meets adventure in God’s creation.</p>
               </div>
-              <div>
-                <h3 className="text-white font-semibold mb-2">Quick Links</h3>
-                <ul className="space-y-1"><li>About</li><li>Activities</li><li>Community</li><li>Events</li></ul>
-              </div>
+              {/* <div> */}
+                {/* <h3 className="text-white font-semibold mb-2">Quick Links</h3>
+                <ul className="space-y-1"><li>About</li><li>Activities</li><li>Community</li><li>Events</li></ul> */}
+              {/* </div> */}
               <div>
                 <h3 className="text-white font-semibold mb-2">Contact</h3>
                 <p>Email: isaiahnevin15@gmail.com</p>
                 <p>Phone: (509) 850-4770</p>
                 <p>Location: Spokane</p>
               </div>
-              <div>
-                <h3 className="text-white font-semibold mb-2">Follow Us</h3>
-                <p>Facebook</p><p>Instagram</p>
-              </div>
+              {/* <div> */}
+                {/* <h3 className="text-white font-semibold mb-2">Follow Us</h3>
+                <p>Facebook</p><p>Instagram</p> */}
+              {/* </div> */}
             </div>
             <div className="text-center text-sm mt-8">© 2025 Mountain Men of God. All rights reserved.</div>
           </footer>

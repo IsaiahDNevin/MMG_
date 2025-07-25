@@ -27,7 +27,7 @@ export default async function MMGLandingPage() {
           <p className="text-white text-lg md:text-2xl mb-8">Where faith meets adventure in God&#39;s creation</p>
           <div className="space-x-4">
             {/* <Button className="bg-white text-gray-900 px-6 py-3">Join Our Brotherhood</Button> */}
-            <Button href="#upcoming-events" className="bg-white text-gray-900 px-4 py-2">Check out our next Adventure!</Button>
+            <Button href="#events" className="bg-white text-gray-900 px-4 py-2">Check out our next Adventure!</Button>
           </div>
         </div>
       </header>
