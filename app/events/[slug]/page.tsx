@@ -1,10 +1,17 @@
-import { getEventBySlug } from '@/app/services/events-service'
+import { getEventBySlug, getEvents } from '@/app/services/events-service'
 import { notFound } from 'next/navigation'
 import EventRegisterModal from '@/components/ui/event-registration-modal'
 import Image from 'next/image'
 
 type EventPageProps = {
   params: Promise<{ slug: string }>
+}
+
+export async function generateStaticParams() {
+  const events = await getEvents();
+  return events.map(event => ({
+    slug: event.slug,
+  }));
 }
 
 export async function generateMetadata({ params }: EventPageProps) {
