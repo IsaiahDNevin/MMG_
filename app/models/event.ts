@@ -6,4 +6,5 @@ export interface Event {
   description: string
   cta: string
   ctaLink: string
+  slug: string
 }

@@ -18,3 +18,9 @@ export async function getEventById(id: string): Promise<Event | null> {
   const events = await getEvents()
   return events.find(event => event.id === parseInt(id)) || null
 }
+
+// ✅ Add this:
+export async function getEventBySlug(slug: string): Promise<Event | null> {
+  const events = await getEvents()
+  return events.find(event => event.slug === slug) || null
+}

@@ -14,7 +14,7 @@ export function EventCard({ event }: { event: Event }) {
           </div>
           <p className="text-gray-600">{event.description}</p>
         </div>
-        <Button href={event.ctaLink + '?id=' + event.id} className="mt-4 md:mt-0 bg-gray-900 text-white px-6 py-2">
+        <Button href={`/events/${event.slug}`} className="mt-4 md:mt-0 bg-gray-900 text-white px-6 py-2">
           {event.cta}
         </Button>
       </CardContent>

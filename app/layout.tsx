@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import Link from "next/link";
+import { Button } from "@/components/ui/button";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -30,16 +31,13 @@ export default function RootLayout({
           <nav className="bg-white py-6 px-32 shadow-md flex items-center sticky top-0 z-50">
             <div className="flex items-center space-x-2">
               <span className="font-bold text-2xl"><Link href="/">MMG</Link></span>
-              <span className="text-gray-600 text-base md:text-lg">Mountain Men of God</span>
+              <span className="text-gray-700 text-base md:text-lg">Mountain Men of God</span>
             </div>
             <div className="flex-1" />
             <div className="hidden md:flex items-center space-x-6">
-              <a href="#about" className="hover:text-gray-700">About</a>
-              <a href="#activities" className="hover:text-gray-700">Activities</a>
-              <a href="#community" className="hover:text-gray-700">Community</a>
-              <Link href="/events" className="hover:text-gray-700">Events</Link>
-              {/* Replace with your Button component if needed */}
-              <button className="bg-gray-900 text-white px-3 py-1 text-sm ml-4 rounded">Join Us</button>
+              <a href="#mission" className="hover:text-gray-700 text-lg">Mission</a>
+              <a href="#community" className="hover:text-gray-700 text-lg">Community</a>
+              <Button href="/events" className="bg-gray-900 text-white px-3 py-1 text-lg ml-4 rounded">Events</Button>
             </div>
             <div className="md:hidden ml-auto">
               <button aria-label="Open menu">☰</button>

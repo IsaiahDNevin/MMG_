@@ -1,425 +1,137 @@
 [
   {
     "id": 1,
+    "slug": "mount-washington",
     "title": "Mount Spokane Expedition",
     "date": "2025-03-15",
     "location": "New Hampshire",
     "description": "Challenge yourself with a winter ascent of Mount Washington.",
-    "cta": "Learn More",
-    "ctaLink": "/events/mount-washington"
+    "cta": "Learn More"
   },
   {
     "id": 2,
+    "slug": "breakfast",
     "title": "Breakfast",
     "date": "Every 1st Saturday",
     "location": "Local Church",
     "description": "Join us for fellowship, food, and planning our next outdoor adventures.",
-    "cta": "Learn More",
-    "ctaLink": "/events/breakfast"
+    "cta": "Learn More"
   },
   {
     "id": 3,
+    "slug": "grand-canyon-rim-to-rim",
     "title": "Grand Canyon Rim-to-Rim",
     "date": "2025-04-05",
     "location": "Arizona",
     "description": "Traverse the Grand Canyon from south rim to north rim in a single day hike.",
-    "cta": "Learn More",
-    "ctaLink": "/events/grand-canyon-rim-to-rim"
+    "cta": "Learn More"
   },
   {
     "id": 4,
+    "slug": "yosemite-valley-camping",
     "title": "Yosemite Valley Camping",
     "date": "2025-04-18",
     "location": "California",
     "description": "Camp under the stars in Yosemite Valley with guided devotions by the falls.",
-    "cta": "Learn More",
-    "ctaLink": "/events/yosemite-valley-camping"
+    "cta": "Learn More"
   },
   {
     "id": 5,
+    "slug": "zion-national-park-hike",
     "title": "Zion National Park Hike",
     "date": "2025-05-02",
     "location": "Utah",
     "description": "Explore the Narrows and Angels Landing in Zion National Park.",
-    "cta": "Learn More",
-    "ctaLink": "/events/zion-national-park-hike"
+    "cta": "Learn More"
   },
   {
     "id": 6,
+    "slug": "rocky-mountain-backpacking",
     "title": "Rocky Mountain Backpacking",
     "date": "2025-05-15",
     "location": "Colorado",
     "description": "Three-day backpacking trip through the Rocky Mountain wilderness.",
-    "cta": "Learn More",
-    "ctaLink": "/events/rocky-mountain-backpacking"
+    "cta": "Learn More"
   },
   {
     "id": 7,
+    "slug": "everglades-kayaking",
     "title": "Everglades Kayaking",
     "date": "2025-05-28",
     "location": "Florida",
     "description": "Guided kayaking tour through the tropical mangroves of the Everglades.",
-    "cta": "Learn More",
-    "ctaLink": "/events/everglades-kayaking"
+    "cta": "Learn More"
   },
   {
     "id": 8,
+    "slug": "acadia-sunrise-summit",
     "title": "Acadia Sunrise Summit",
     "date": "2025-06-03",
     "location": "Maine",
     "description": "Witness sunrise from the summit of Cadillac Mountain.",
-    "cta": "Learn More",
-    "ctaLink": "/events/acadia-sunrise-summit"
+    "cta": "Learn More"
   },
   {
     "id": 9,
+    "slug": "smoky-mountains-hiking",
     "title": "Great Smoky Mountains Hiking",
     "date": "2025-06-10",
     "location": "Tennessee",
     "description": "Day hikes through the misty trails of the Smokies.",
-    "cta": "Learn More",
-    "ctaLink": "/events/smoky-mountains-hiking"
+    "cta": "Learn More"
   },
   {
     "id": 10,
+    "slug": "appalachian-trail-section",
     "title": "Appalachian Trail Section",
     "date": "2025-06-21",
     "location": "Virginia",
     "description": "Tackle a 20‑mile section of the famed Appalachian Trail together.",
-    "cta": "Learn More",
-    "ctaLink": "/events/appalachian-trail-section"
+    "cta": "Learn More"
   },
   {
     "id": 11,
+    "slug": "rainier-summit-prep",
     "title": "Mount Rainier Summit Prep",
     "date": "2025-07-02",
     "location": "Washington",
     "description": "Training weekend for prospective Mount Rainier summit teams.",
-    "cta": "Learn More",
-    "ctaLink": "/events/rainier-summit-prep"
+    "cta": "Learn More"
   },
   {
     "id": 12,
+    "slug": "glacier-park-trek",
     "title": "Glacier National Park Trek",
     "date": "2025-07-15",
     "location": "Montana",
     "description": "Backcountry trekking and devotions in Glacier NP.",
-    "cta": "Learn More",
-    "ctaLink": "/events/glacier-park-trek"
+    "cta": "Learn More"
   },
   {
     "id": 13,
+    "slug": "bwca-canoe-trip",
     "title": "Boundary Waters Canoe Trip",
     "date": "2025-07-25",
     "location": "Minnesota",
     "description": "Paddle and portage through the BWCA with evening worship by the lake.",
-    "cta": "Learn More",
-    "ctaLink": "/events/bwca-canoe-trip"
+    "cta": "Learn More"
   },
   {
     "id": 14,
+    "slug": "badlands-photography-hike",
     "title": "Badlands Photography Hike",
     "date": "2025-08-05",
     "location": "South Dakota",
     "description": "Capture the unique landscapes of Badlands NP at golden hour.",
-    "cta": "Learn More",
-    "ctaLink": "/events/badlands-photography-hike"
+    "cta": "Learn More"
   },
   {
     "id": 15,
+    "slug": "redwood-forest-walk",
     "title": "Redwood Forest Walk",
     "date": "2025-08-12",
     "location": "California",
     "description": "Gentle walks among ancient redwoods and forest devotions.",
-    "cta": "Learn More",
-    "ctaLink": "/events/redwood-forest-walk"
-  },
-  {
-    "id": 16,
-    "title": "Grand Tetons Rock Climb",
-    "date": "2025-08-20",
-    "location": "Wyoming",
-    "description": "Introduction to multi-pitch climbing in the Grand Tetons.",
-    "cta": "Learn More",
-    "ctaLink": "/events/grand-tetons-climb"
-  },
-  {
-    "id": 17,
-    "title": "Desert Oasis Camping",
-    "date": "2025-09-01",
-    "location": "Arizona",
-    "description": "Overnight desert camping with guided stargazing and worship.",
-    "cta": "Learn More",
-    "ctaLink": "/events/desert-oasis-camping"
-  },
-  {
-    "id": 18,
-    "title": "Smoky Mountain Waterfall Hike",
-    "date": "2025-09-10",
-    "location": "Tennessee",
-    "description": "Day trip chasing waterfalls in the Smokies.",
-    "cta": "Learn More",
-    "ctaLink": "/events/smoky-waterfall-hike"
-  },
-  {
-    "id": 19,
-    "title": "Puget Sound Kayak & Devotions",
-    "date": "2025-09-18",
-    "location": "Washington",
-    "description": "Paddle through islands at sunset with guided devotionals on the water.",
-    "cta": "Learn More",
-    "ctaLink": "/events/puget-sound-kayak"
-  },
-  {
-    "id": 20,
-    "title": "Great Lakes Shoreline Hike",
-    "date": "2025-09-25",
-    "location": "Michigan",
-    "description": "Explore the northern shorelines of Lake Superior on day hikes.",
-    "cta": "Learn More",
-    "ctaLink": "/events/great-lakes-hike"
-  },
-  {
-    "id": 21,
-    "title": "Rocky Mountain Fall Foliage",
-    "date": "2025-10-05",
-    "location": "Colorado",
-    "description": "Witness autumn colors on high alpine trails.",
-    "cta": "Learn More",
-    "ctaLink": "/events/rocky-fall-foliage"
-  },
-  {
-    "id": 22,
-    "title": "Canyonlands Off-Road Adventure",
-    "date": "2025-10-12",
-    "location": "Utah",
-    "description": "4×4 and hiking combo through Canyonlands NP.",
-    "cta": "Learn More",
-    "ctaLink": "/events/canyonlands-offroad"
-  },
-  {
-    "id": 23,
-    "title": "Shenandoah Skyline Drive Hike",
-    "date": "2025-10-20",
-    "location": "Virginia",
-    "description": "Back-to-back hikes along Shenandoah’s ridges.",
-    "cta": "Learn More",
-    "ctaLink": "/events/shenandoah-skyline-hike"
-  },
-  {
-    "id": 24,
-    "title": "Ozark Bluff Trail Backpack",
-    "date": "2025-10-28",
-    "location": "Arkansas",
-    "description": "Two-day backpack on the Ozark Bluff Trail.",
-    "cta": "Learn More",
-    "ctaLink": "/events/ozark-bluff-backpack"
-  },
-  {
-    "id": 25,
-    "title": "Adirondacks Summit Push",
-    "date": "2025-11-05",
-    "location": "New York",
-    "description": "Summit three Adirondack High Peaks in a day challenge.",
-    "cta": "Learn More",
-    "ctaLink": "/events/adirondacks-summit"
-  },
-  {
-    "id": 26,
-    "title": "Joshua Tree Star Camp",
-    "date": "2025-11-12",
-    "location": "California",
-    "description": "Overnight camping under dark skies in Joshua Tree NP.",
-    "cta": "Learn More",
-    "ctaLink": "/events/joshua-tree-star-camp"
-  },
-  {
-    "id": 27,
-    "title": "Everglades Birding Tour",
-    "date": "2025-11-20",
-    "location": "Florida",
-    "description": "Rush-hour kayaking for wetland bird sightings.",
-    "cta": "Learn More",
-    "ctaLink": "/events/everglades-birding"
-  },
-  {
-    "id": 28,
-    "title": "Central Park Sunrise Yoga",
-    "date": "Every Sunday",
-    "location": "New York",
-    "description": "Gentle yoga and devotionals in Central Park at dawn.",
-    "cta": "Learn More",
-    "ctaLink": "/events/central-park-yoga"
-  },
-  {
-    "id": 29,
-    "title": "Big Bend River Float",
-    "date": "2025-12-01",
-    "location": "Texas",
-    "description": "Float trip down the Rio Grande with evening worship on the banks.",
-    "cta": "Learn More",
-    "ctaLink": "/events/big-bend-float"
-  },
-  {
-    "id": 30,
-    "title": "Red Rocks Sound Bath Hike",
-    "date": "2025-12-10",
-    "location": "Colorado",
-    "description": "Guided hike ending with a meditation sound bath at Red Rocks Amphitheatre.",
-    "cta": "Learn More",
-    "ctaLink": "/events/red-rocks-sound-bath"
-  },
-  {
-    "id": 31,
-    "title": "Ozark Fall Camping",
-    "date": "2025-12-18",
-    "location": "Arkansas",
-    "description": "Winter camping in the Boston Mountains of Arkansas.",
-    "cta": "Learn More",
-    "ctaLink": "/events/ozark-fall-camping"
-  },
-  {
-    "id": 32,
-    "title": "Death Valley Sunrise Hike",
-    "date": "2025-12-25",
-    "location": "California",
-    "description": "Celebrate Christmas sunrise at the lowest point in North America.",
-    "cta": "Learn More",
-    "ctaLink": "/events/death-valley-sunrise"
-  },
-  {
-    "id": 33,
-    "title": "Hawaii Volcano National Park Trek",
-    "date": "2025-12-30",
-    "location": "Hawaii",
-    "description": "Explore active volcanic landscapes with guided safety briefings and devotions.",
-    "cta": "Learn More",
-    "ctaLink": "/events/hawaii-volcano-trek"
-  },
-  {
-    "id": 34,
-    "title": "Appalachian Trail New Year Hike",
-    "date": "2026-01-01",
-    "location": "North Carolina",
-    "description": "Ring in the new year with a ceremonial AT mile marker hike.",
-    "cta": "Learn More",
-    "ctaLink": "/events/at-new-year-hike"
-  },
-  {
-    "id": 35,
-    "title": "Glacier Lantern Walk",
-    "date": "2025-11-28",
-    "location": "Alaska",
-    "description": "Winter lantern-lit walk on the Mendenhall Glacier trails.",
-    "cta": "Learn More",
-    "ctaLink": "/events/glacier-lantern-walk"
-  },
-  {
-    "id": 36,
-    "title": "Sedona Vortex Meditation Hike",
-    "date": "2025-11-05",
-    "location": "Arizona",
-    "description": "Spiritual meditation at Sedona’s four vortex sites.",
-    "cta": "Learn More",
-    "ctaLink": "/events/sedona-vortex-meditation"
-  },
-  {
-    "id": 37,
-    "title": "Patagonia Trekking Prep",
-    "date": "2025-11-15",
-    "location": "Chile",
-    "description": "Pre-trip training weekend for Patagonia expeditions.",
-    "cta": "Learn More",
-    "ctaLink": "/events/patagonia-prep"
-  },
-  {
-    "id": 38,
-    "title": "Volcano Boarding Adventure",
-    "date": "2025-10-30",
-    "location": "Nicaragua",
-    "description": "Extreme volcano boarding with devotional reflection on the slopes.",
-    "cta": "Learn More",
-    "ctaLink": "/events/volcano-boarding"
-  },
-  {
-    "id": 39,
-    "title": "Iceland Northern Lights Camp",
-    "date": "2025-10-20",
-    "location": "Iceland",
-    "description": "Multi-day camp chasing the Aurora Borealis with nightly devotions.",
-    "cta": "Learn More",
-    "ctaLink": "/events/iceland-northern-lights"
-  },
-  {
-    "id": 40,
-    "title": "Grand Staircase Hike",
-    "date": "2025-09-10",
-    "location": "Utah",
-    "description": "Backcountry day hikes on the Grand Staircase-Escalante.",
-    "cta": "Learn More",
-    "ctaLink": "/events/grand-staircase-hike"
-  },
-  {
-    "id": 41,
-    "title": "Blue Ridge Parkway Bike Tour",
-    "date": "2025-08-15",
-    "location": "North Carolina",
-    "description": "Guided bike tour along scenic Blue Ridge Parkway.",
-    "cta": "Learn More",
-    "ctaLink": "/events/blue-ridge-bike-tour"
-  },
-  {
-    "id": 42,
-    "title": "Sequoia Giant Tree Walk",
-    "date": "2025-07-20",
-    "location": "California",
-    "description": "Walk among the largest trees on earth in Sequoia National Park.",
-    "cta": "Learn More",
-    "ctaLink": "/events/sequoia-tree-walk"
-  },
-  {
-    "id": 43,
-    "title": "Olympic Coast Kayak Expedition",
-    "date": "2025-06-25",
-    "location": "Washington",
-    "description": "Sea kayaking trip along the Olympic National Park coastline.",
-    "cta": "Learn More",
-    "ctaLink": "/events/olympic-coast-kayak"
-  },
-  {
-    "id": 44,
-    "title": "Niagara Falls Day Trip",
-    "date": "2025-06-05",
-    "location": "New York",
-    "description": "Day trip to Niagara Falls with riverside devotionals.",
-    "cta": "Learn More",
-    "ctaLink": "/events/niagara-falls-trip"
-  },
-  {
-    "id": 45,
-    "title": "Everest Base Camp Prep Hike",
-    "date": "2025-05-20",
-    "location": "Nepal",
-    "description": "High-altitude training hikes for Everest Base Camp aspirants.",
-    "cta": "Learn More",
-    "ctaLink": "/events/everest-prep-hike"
-  },
-  {
-    "id": 46,
-    "title": "Mount Fuji Sunrise Climb",
-    "date": "2025-04-28",
-    "location": "Japan",
-    "description": "Night climb of Mount Fuji to see sunrise at the summit.",
-    "cta": "Learn More",
-    "ctaLink": "/events/mount-fuji-climb"
-  },
-  {
-    "id": 47,
-    "title": "Patagonia Glacier Trek",
-    "date": "2025-04-12",
-    "location": "Argentina",
-    "description": "Trekking on the Perito Moreno Glacier with ice chapel devotions.",
-    "cta": "Learn More",
-    "ctaLink": "/events/patagonia-glacier-trek"
+    "cta": "Learn More"
   }
 ]
