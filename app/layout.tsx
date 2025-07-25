@@ -35,8 +35,8 @@ export default function RootLayout({
             </div>
             <div className="flex-1" />
             <div className="hidden md:flex items-center space-x-6">
-              <a href="#mission" className="hover:text-gray-700 text-lg">Mission</a>
-              <a href="#community" className="hover:text-gray-700 text-lg">Community</a>
+              <Link href="/#mission" className="hover:text-gray-700 text-lg">Mission</Link>
+              <Link href="/#community" className="hover:text-gray-700 text-lg">Community</Link>
               <Button href="/events" className="bg-gray-900 text-white px-3 py-1 text-lg ml-4 rounded">Events</Button>
             </div>
             <div className="md:hidden ml-auto">
