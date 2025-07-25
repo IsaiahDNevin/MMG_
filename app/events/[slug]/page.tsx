@@ -6,6 +6,15 @@ type EventPageProps = {
   params: { slug: string }
 }
 
+export async function generateMetadata({ params }: EventPageProps) {
+  const event = await getEventBySlug(params.slug)
+
+  return {
+    title: `Mountain Men of God - ${event?.title || 'Event'}`,
+    description: event?.description || 'Mountain Men of God - Where faith meets adventure in God\'s creation',
+  };
+}
+
 export default async function EventPage({ params }: EventPageProps) {
   const event = await getEventBySlug(params.slug)
 

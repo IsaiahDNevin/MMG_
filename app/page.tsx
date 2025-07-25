@@ -6,6 +6,11 @@ import { getNEvents } from './services/events-service'
 import { EventCard } from '@/components/ui/event-card'
 import { withRepoPrefix } from './utils/with-repo-prefix'
 
+export const metadata = {
+  title: 'Mountain Men of God',
+  description: 'Mountain Men of God - Where faith meets adventure in God\'s creation',
+};
+
 export default async function MMGLandingPage() {
   const events = await getNEvents(3);
 

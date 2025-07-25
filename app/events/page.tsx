@@ -1,6 +1,11 @@
 import { getEvents } from '@/app/services/events-service'
 import { EventCard } from '@/components/ui/event-card'
 
+export const metadata = {
+  title: 'Mountain Men of God - Events',
+  description: 'Mountain Men of God - Where faith meets adventure in God\'s creation',
+};
+
 export default async function EventsPage() {
   const events = await getEvents()
 
